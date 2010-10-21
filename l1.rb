@@ -1,10 +1,10 @@
 # zadanie 2
 
 def sum(a)
-    a.reduce(:+)
+    a.flatten.reduce(:+)
 end
 
-puts sum [1, 2, 3]
+puts sum [[1], [], [2, 3]]
 
 
 # zadanie 4
