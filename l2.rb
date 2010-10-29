@@ -26,10 +26,6 @@ class Graph
             return [path]
         end
     
-        if not @g.has_key?(a)
-            return []
-        end
-    
         paths = []
     
         @g[a].each do |n|
